@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_send_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_gravity="center"
+    tools:context="com.example.zane.smartwatch.SendScreen">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/messageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/manageApps"/>
+    </TableRow>
+
+<!--    <TableRow>
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sendButton"/>
+    </TableRow>-->
+
+    <TableRow>
+        <CheckBox
+            android:id="@+id/messaging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/messaging"
+            android:onClick="appState"
+            />
+    </TableRow>
+
+    <TableRow>
+        <CheckBox
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:onClick="appState"
+            />
+    </TableRow>
+
+    <TableRow>
+        <CheckBox
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/call"
+            android:onClick="appState"
+            />
+    </TableRow>
+
+    <TableRow>
+        <CheckBox
+            android:id="@+id/missed_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/missed_call"
+            android:onClick="appState"
+            />
+    </TableRow>
+
+    <TableRow>
+        <CheckBox
+            android:id="@+id/voicemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/voicemail"
+            android:onClick="appState"
+            />
+    </TableRow>
+
+</TableLayout>

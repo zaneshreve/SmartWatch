@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SmartWatch</string>
+    <string name="connectButton">Connect!</string>
+    <string name="sendButton">Send!</string>
+    <string name="sendButtonHint">Send something!</string>
+
+    <string name="messaging">Messaging</string>
+    <string name="email">GMail</string>
+    <string name="call">Call</string>
+    <string name="missed_call">Missed Call</string>
+    <string name="voicemail">Voicemail</string>
+    <string name="manageApps">Select apps for notifications:</string>
+</resources>
